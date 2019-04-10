@@ -1,0 +1,19 @@
+{
+	"books": [
+		{
+			"name": "Nightfall by Isaac Asimov",
+			"url": "http://mamenko.ru/bixby/Asimov,Isaac_Nightfall.mp3",
+			"position": 0
+		},
+		{
+			"name": "The Eyes Have It by Philip Dick",
+			"url": "http://mamenko.ru/bixby/Dick,Philip_K_The_Eyes_Have_It.mp3",
+			"position": 0
+		},
+		{
+			"name": "The Truth Is a Cave in the Black Mountains by Neil Gaiman",
+			"url": "http://mamenko.ru/bixby/Gaiman,Neil_The_Truth_Is_a_Cave_in_the_Black_Mountains.mp3",
+			"position": 260
+		}
+	]
+}
