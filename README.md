@@ -9,8 +9,8 @@ List of audiobooks:
 * What audiobooks do you have
 
 Play audiobook:
-* Play @book. Should be confirmed if position != 0
-* Read @book. Should be confirmed if position != 0
+* Play book @book. Should be confirmed if position != 0
+* Read book @book. Should be confirmed if position != 0
 * Continue reading (same "Read latest book")
 
 @Book can be:

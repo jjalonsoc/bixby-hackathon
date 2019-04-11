@@ -6,7 +6,7 @@ endpoints {
       local-endpoint (listbooks.js)
     }
      action-endpoint (ChooseBook) {
-      accepted-inputs (name)
+      accepted-inputs (name, author)
       local-endpoint (choosebook.js)
     }
     action-endpoint (AudioStub) {

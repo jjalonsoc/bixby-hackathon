@@ -1,10 +1,14 @@
 structure (Audiobook) {
   property (name) {
-    type (audioPlayer.DisplayName)
+    type (BookName)
     min (Required)
   }
   property (name2) {
     type (viv.core.UnknownInputText)
+    min (Required)
+  }
+  property (author) {
+    type (Author)
     min (Required)
   }
   property (url) {

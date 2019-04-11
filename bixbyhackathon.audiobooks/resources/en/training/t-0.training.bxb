@@ -1,3 +1,8 @@
+train (t-02gyedx2ztkeka2q84zmw42rk) {
+  utterance ("[g:ChooseBook] Play audiobook (name)[v:BookName]")
+  plan (Y2BmUE7KrEiqzEhMzk4sycjP00ssTcnMT8rPzy7Wc4QxGVRwK3LOyM8vTnUCqVLCrQok75eYm8rAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1555015163637)
+}
 train (t-0n14n4wll3aaap4kargwba9n7) {
   utterance ([g:ListBooks] What audiobooks do you have)
   plan (Y2BiUE7KrEiqzEhMzk4sycjP00ssTcnMT8rPzy7Wc4Qx8SnyySwucQKxGBiBkAGKgSQA)

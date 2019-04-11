@@ -1,5 +1,5 @@
-train (t-jxymbuijvf2xti9d41pj7odg4) {
-  utterance ("[g:ChooseBook] Play book (name)[v:audioPlayer.DisplayName]")
-  plan (Y2BmUE7KrEiqzEhMzk4sycjP00ssTcnMT8rPzy7Wc4QxGVRwK3LOyM8vTnUCqZIFq4JIBuQkVqYW6blkFhcAWX6JuakMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1554943903387)
+train (t-jcpn1ivwzuject89hlj03jt61) {
+  utterance ("[g:ChooseBook:continue:ListBooks] Play book by (author)[v:Author]")
+  plan (Y2BmUE7KrEiqzEhMzk4sycjP00ssTcnMT8rPzy7Wc4QxGVRwK3LOyM8vTnUCqVLAZxRQpIiBiYERiBmAJCMDCED5AA==)
+  last-modified (1555016388253)
 }

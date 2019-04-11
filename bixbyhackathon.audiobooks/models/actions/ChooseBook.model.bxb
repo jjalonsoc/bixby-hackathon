@@ -3,8 +3,12 @@ action (ChooseBook) {
   type (Search)
   collect {
     input (name) {
-      type (audioPlayer.DisplayName)
-      min (Required) max (One)
+      type (BookName)
+      min (Optional) max (One)
+    }
+    input (author) {
+      type (Author)
+      min (Optional) max (One)
     }
   }
   output (Audiobook)
