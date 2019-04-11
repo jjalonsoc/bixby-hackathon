@@ -1,0 +1,18 @@
+structure (Audiobook) {
+  property (name) {
+    type (audioPlayer.DisplayName)
+    min (Required)
+  }
+  property (name2) {
+    type (viv.core.UnknownInputText)
+    min (Required)
+  }
+  property (url) {
+    type (viv.core.Url)
+    min (Required)
+  }
+  property (position) {
+    type (viv.core.Integer)
+    min (Required)
+  }
+}

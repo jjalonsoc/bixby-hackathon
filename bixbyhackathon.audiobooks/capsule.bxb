@@ -1,0 +1,14 @@
+capsule {
+    id (bixbyhackathon.audiobooks)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  capsule-imports {
+    import (bixby.audioPlayer) {
+      version (0.1.9)
+      as (audioPlayer)
+    }
+  }
+}

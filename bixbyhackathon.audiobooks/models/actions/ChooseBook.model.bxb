@@ -1,0 +1,11 @@
+action (ChooseBook) {
+  description (choose audiobook from library)
+  type (Search)
+  collect {
+    input (name) {
+      type (audioPlayer.DisplayName)
+      min (Required) max (One)
+    }
+  }
+  output (Audiobook)
+}

@@ -1,0 +1,5 @@
+action (ListBooks) {
+  description (list audiobooks from library)
+  type (Calculation)
+  output (Audiobook)
+}
