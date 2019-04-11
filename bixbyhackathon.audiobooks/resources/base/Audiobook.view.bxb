@@ -6,15 +6,15 @@ result-view {
  conversation-drivers {
     if (size (this) == 1 && this.position != 0) {
       conversation-driver {
-        template ("Continue")
+        template ("Yes")
       }
        conversation-driver {
-        template ("Start over")
+        template ("No")
       }
     }
   }
     followup {
-    if (size (this) == 1) {
+    if (size (this) == 1 && this.position != 0) {
     prompt {
       dialog (Would you like to continue?)
       on-confirm {
@@ -24,7 +24,9 @@ result-view {
         }
       }
       on-deny {
-        message (Okay.)
+        intent {
+          goal: ListBooks
+        }
       }
     }
     }
