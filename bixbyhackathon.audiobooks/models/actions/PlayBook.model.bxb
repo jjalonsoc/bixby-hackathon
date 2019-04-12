@@ -6,10 +6,6 @@ action (PlayBook) {
       type (Audiobook)
       min (Required) max (One)
     }
-    input (position) {
-      type (Position)
-      min (Optional) max (One)
-    }
   }
   output (audioPlayer.AudioInfo)
 }

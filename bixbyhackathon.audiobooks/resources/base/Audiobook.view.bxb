@@ -3,8 +3,52 @@ result-view {
     Audiobook (this)
   }
   
- conversation-drivers {
-    if (size (this) == 1 && this.position != 0) {
+  followup {
+    if (size (this) == 1) {
+      if (this.position != 0) {
+        prompt {
+          dialog ("Would you like to continue from saved position?")
+          on-confirm {
+            intent {
+              goal: AudioStub
+              value: $expr(this)
+            }
+          }
+          on-deny {
+            intent {
+              goal: AudioStub
+              value: Audiobook {
+                name: $expr(this.name)
+                name2: $expr(this.name2)
+                author: $expr(this.author)
+                url: $expr(this.url)
+                position: $expr(0)
+              }
+            }
+          }
+        }
+      }
+      else {
+        prompt {
+          dialog ("Start playing?")
+          on-confirm {
+            intent {
+              goal: AudioStub
+              value: $expr(this)
+            }
+          }
+          on-deny {
+            intent {
+              goal: ChooseBook
+            }
+          }
+        }
+      }
+    }
+  }
+
+  conversation-drivers {
+    if (size (this) == 1) {
       conversation-driver {
         template ("Yes")
       }
@@ -13,22 +57,7 @@ result-view {
       }
     }
   }
-    followup {
-    if (size (this) == 1 && this.position != 0) {
-    prompt {
-      dialog ("Would you like to continue?")
-      on-confirm {
-        intent {
-          goal: audioPlayer.PlayAudio
-          value: $expr(this)
-        }
-      }
-      on-deny {
-        message(OK)
-      }
-    }
-    }
-  }
+  
   render {
     if (size (this) == 1) {
        nothing

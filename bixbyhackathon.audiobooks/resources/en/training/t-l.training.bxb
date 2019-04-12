@@ -1,5 +1,5 @@
 train (t-ls0do7gl4lb54frhpdp17n7ab) {
-  utterance ("[g:PlayBook:continue:ChooseBook] Play (book name)[v:Audiobook] from (start)[v:Position:start]")
-  plan (Y2BhkE7KrEiq1EssTcnMD8hJrEwt0nMEsT3z0vIZlMCSGYnJ2YklGfl5EFVJ+fnZxXogtU5AFoMybjWOMCZeg/KLM0sy8/MYmBkYGZiAJAOQBkEIAIkyA8UZAA==)
-  last-modified (1555022013615)
+  utterance ("[g:ChooseBook:continue] Play (book name)[v:BookName]")
+  plan (Y2BmUE7KrEiqzEhMzk4sycjP00ssTcnMT8rPzy7Wc4QxGVRwK3LOyM8vTnUCqVLCrQok75eYm8rAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1555033644593)
 }

@@ -10,7 +10,7 @@ dialog (Result) {
     }   
   }
   else {
-      template ("Playing #{value(this.name)}.")
+      template ("Selected #{value(this.name)}.")
   }
 
  }

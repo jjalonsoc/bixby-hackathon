@@ -1,12 +1,14 @@
 action (AudioStub) {
-  type (Search)
+  type (Calculation)
+  
   collect {
-    input (file) {
-      type (audioPlayer.AudioInfo)
+    computed-input (book) {
+      type (Audiobook)
       min (Required) max (One)
-      default-init {
+      compute {
         intent {
           goal: PlayBook
+          value: $expr(book)
         }
       }
       hidden
@@ -18,11 +20,11 @@ action (AudioStub) {
       compute {
         intent {
           goal: audioPlayer.PlayAudio
-          value: $expr(file)
+          value: $expr(book)
         }
       }
       hidden
     }
   }
-  output (audioPlayer.Artist)
+  output (audioPlayer.Result)
 }
