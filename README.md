@@ -4,19 +4,17 @@
 **Commands**
 
 List of audiobooks:
-* Show the audio library
+* Show audiobooks library
 * List audiobooks
 * What audiobooks do you have
 
 Play audiobook:
 * Play book @book. Should be confirmed if position != 0
-* Read book @book. Should be confirmed if position != 0
-* Continue reading (same "Read latest book")
+* Continue reading
 
 @Book can be:
 * Audiobook name
 * Book by @author
-* Latest book (where position != 0)
 
 Confirmation:
 * Continue

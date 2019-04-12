@@ -1,20 +1,16 @@
 endpoints {
 
   action-endpoints {
-    action-endpoint (ListBooks) {
-      accepted-inputs ()
-      local-endpoint (listbooks.js)
-    }
      action-endpoint (ChooseBook) {
       accepted-inputs (name, author)
       local-endpoint (choosebook.js)
     }
+    action-endpoint (PlayBook) {
+      accepted-inputs (audiobook)
+      local-endpoint (playbook.js)
+    }
     action-endpoint (AudioStub) {
         local-endpoint (stub.js)
       }
-    action-endpoint (AudioInfo) {
-      accepted-inputs ()
-      local-endpoint (audioinfo.js)
-    }
   }
 }

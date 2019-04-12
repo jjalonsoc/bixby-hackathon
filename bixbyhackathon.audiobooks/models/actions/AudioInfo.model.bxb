@@ -1,5 +1,0 @@
-action (AudioInfo) {
-  description (MP3)
-  type (Calculation)
-  output (audioPlayer.AudioInfo)
-}

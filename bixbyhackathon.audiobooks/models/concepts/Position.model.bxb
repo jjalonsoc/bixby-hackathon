@@ -1,0 +1,5 @@
+enum (Position) {
+  description (Positions in audiobook)
+  symbol (start)
+  symbol (last)
+}

@@ -16,7 +16,7 @@ result-view {
     followup {
     if (size (this) == 1 && this.position != 0) {
     prompt {
-      dialog (Would you like to continue?)
+      dialog ("Would you like to continue?")
       on-confirm {
         intent {
           goal: audioPlayer.PlayAudio
@@ -24,9 +24,7 @@ result-view {
         }
       }
       on-deny {
-        intent {
-          goal: ListBooks
-        }
+        message(OK)
       }
     }
     }

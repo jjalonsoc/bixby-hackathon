@@ -6,7 +6,7 @@ action (AudioStub) {
       min (Required) max (One)
       default-init {
         intent {
-          goal: AudioInfo
+          goal: PlayBook
         }
       }
       hidden

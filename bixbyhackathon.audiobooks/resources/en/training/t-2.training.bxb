@@ -1,5 +1,0 @@
-train (t-2ijy94jb4i3p03le87mzpvb4j) {
-  utterance ("[g:ChooseBook:continue:ListBooks] What about (name)[v:BookName]")
-  plan (Y2BmUE7KrEiqzEhMzk4sycjP00ssTcnMT8rPzy7Wc4QxGVRwK3LOyM8vTnUCqVLCrQok75eYm8rAxMAIxAxAkpEBBKB8AA==)
-  last-modified (1555015291859)
-}

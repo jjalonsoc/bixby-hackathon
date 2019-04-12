@@ -1,10 +1,10 @@
 train (t-02gyedx2ztkeka2q84zmw42rk) {
-  utterance ("[g:ChooseBook] Play audiobook (name)[v:BookName]")
-  plan (Y2BmUE7KrEiqzEhMzk4sycjP00ssTcnMT8rPzy7Wc4QxGVRwK3LOyM8vTnUCqVLCrQok75eYm8rAxMAIxAxAkpEBBKB8AA==)
-  last-modified (1555015163637)
+  utterance ("[g:PlayBook] Play audiobook (book name)[v:Audiobook] from (start)[v:Position:start]")
+  plan (Y2BhkE7KrEiq1EssTcnMD8hJrEwt0nMEsT3z0vIZlMCSGYnJ2YklGfl5EFVJ+fnZxXogtU5AFoMybjWOMCZeg/KLM0sy8/MYmBkYGZiAJAOQBkEIAIkyA8UZAA==)
+  last-modified (1555022044239)
 }
-train (t-0n14n4wll3aaap4kargwba9n7) {
-  utterance ([g:ListBooks] What audiobooks do you have)
-  plan (Y2BiUE7KrEiqzEhMzk4sycjP00ssTcnMT8rPzy7Wc4Qx8SnyySwucQKxGBiBkAGKgSQA)
-  last-modified (1554953394680)
+train (t-0xi5fs8jsi94utsmuhv3wo70r) {
+  utterance ("[g:ChooseBook] List audiobooks by (author name)[v:Author]")
+  plan (Y2BmUE7KrEiqzEhMzk4sycjP00ssTcnMT8rPzy7Wc4QxGVRwK3LOyM8vTnUCqVLAZxRQpIiBiYERiBmAJCMDCED5AA==)
+  last-modified (1555019944167)
 }
