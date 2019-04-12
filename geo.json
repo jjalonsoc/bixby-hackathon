@@ -1,0 +1,36 @@
+{
+	"markers": [
+		{
+			"name": "Lab",
+			"latitude": 37.548653,
+			"longitude": -122.059097
+		},
+		{
+			"name": "Dorms",
+			"latitude": 37.550614,
+			"longitude": -122.056141
+		}
+	],
+	"friends": [
+		{
+			"name": "Allen",
+			"latitude": 37.550844,
+			"longitude": -122.055902
+		},
+		{
+			"name": "Zhenya Mamenko",
+			"latitude": 37.548525,
+			"longitude": -122.059559
+		},
+		{
+			"name": "Kirill",
+			"latitude": 37.515034,
+			"longitude": -122.326146
+		},
+		{
+			"name": "Ksenia",
+			"latitude": 37.548546,
+			"longitude": -122.059064
+		}
+	]
+}
