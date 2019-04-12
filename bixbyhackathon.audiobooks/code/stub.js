@@ -1,3 +1,3 @@
 module.exports.function = function stub () {
-  return 'stub';
+  return 'Start playing';
 }

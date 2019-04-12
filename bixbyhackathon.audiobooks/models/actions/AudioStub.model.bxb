@@ -2,10 +2,10 @@ action (AudioStub) {
   type (Calculation)
   
   collect {
-    computed-input (book) {
+    input (book) {
       type (Audiobook)
       min (Required) max (One)
-      compute {
+      default-init {
         intent {
           goal: PlayBook
           value: $expr(book)
@@ -26,5 +26,5 @@ action (AudioStub) {
       hidden
     }
   }
-  output (audioPlayer.Result)
+  output (Result)
 }
