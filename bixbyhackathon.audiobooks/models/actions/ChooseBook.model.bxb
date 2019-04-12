@@ -11,5 +11,9 @@ action (ChooseBook) {
       min (Optional) max (One)
     }
   }
-  output (Audiobook)
+  output (Audiobook) {
+    on-empty {
+     drop-contextual-inputs
+    }
+  }
 }

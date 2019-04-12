@@ -1,4 +1,3 @@
-var console = require('console')
 module.exports.function = function audioinfo (audiobook) {
   var output = {
     audioItem: [{

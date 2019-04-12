@@ -22,7 +22,7 @@ result-view {
                 name2: $expr(this.name2)
                 author: $expr(this.author)
                 url: $expr(this.url)
-                position: $expr(0)
+                position: viv.core.Integer(0)
               }
             }
           }
