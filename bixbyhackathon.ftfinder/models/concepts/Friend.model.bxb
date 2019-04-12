@@ -1,0 +1,10 @@
+structure (Friend) {
+  property (name) {
+    type (viv.core.ContactFirstName)
+    min (Required) max (One)
+  }
+  property (position) {
+    type (viv.geo.GeoPoint)
+    min (Required) max (One)
+  }
+}

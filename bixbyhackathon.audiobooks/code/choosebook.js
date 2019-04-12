@@ -4,6 +4,7 @@ var textLib = require('textLib')
 module.exports.function = function choosebook (name, author) {
   var response = http.getUrl('http://mamenko.ru/bixby/audiobooks.json', { format: 'json' });
   var books = [];
+  
   name = !name ? "" : name;
   author = !author ? "" : author;
   for (var i = 0; i < response.books.length; i++) {
