@@ -16,6 +16,3 @@ Play audiobook:
 * Audiobook name
 * Book by @author
 
-Confirmation:
-* Continue
-* From start
