@@ -7,5 +7,5 @@ action (SearchFriend) {
       min (Optional) max (One)
     }
   }
-  output (viv.core.Text)
+  output (Friend)
 }

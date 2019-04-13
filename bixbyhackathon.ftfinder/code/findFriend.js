@@ -19,9 +19,14 @@ module.exports.function = function findFriend (name) {
           result = markers[j].name;
           break;
         }
-      }       
-      return (name + " " + (result != "outside of campus" ? "in the " + result : result));
+      }
+      console.log(friends[i].photo);
+      return ({
+        name: friends[i].name,
+        position: (result != "outside of campus" ? "in the " + result : result),
+        photo: friends[i].photo
+      });
     }
   }
-  return (name + " not found");
+  return (null);
 }

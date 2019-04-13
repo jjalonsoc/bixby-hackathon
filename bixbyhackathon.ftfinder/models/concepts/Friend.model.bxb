@@ -1,10 +1,14 @@
 structure (Friend) {
   property (name) {
-    type (viv.core.ContactFirstName)
+    type (viv.core.Name)
     min (Required) max (One)
   }
   property (position) {
-    type (viv.geo.GeoPoint)
+    type (viv.core.UnknownInputText)
     min (Required) max (One)
+  }
+  property (photo) {
+    type (viv.core.Url)
+    min (Optional) max (One)
   }
 }
