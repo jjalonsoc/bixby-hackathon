@@ -1,5 +1,9 @@
-# bixby-hackathon
+# Bixby Hackathon
 42 Silicon Valley Hackathon for Samsung Bixby
+
+---------------------------------------------
+
+## Audiobooks
 
 **Commands**
 
@@ -16,3 +20,9 @@ Play audiobook:
 * Audiobook name
 * Book by @author
 
+## Find friend
+
+**Commands**
+
+* Find friend @name
+* Where is my friend @name
