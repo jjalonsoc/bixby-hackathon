@@ -26,3 +26,6 @@ Play audiobook:
 
 * Find friend @name
 * Where is my friend @name
+
+Presentation:
+https://docs.google.com/presentation/d/1loACUkI69J8XSNZPM5sJ7WgQXKbBjvYwNFnB8tqnzeY/edit?usp=sharing
